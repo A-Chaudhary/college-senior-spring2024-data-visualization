@@ -23,12 +23,7 @@ function draw() {
     textSize(32);
     background(200, 230, 255);
 
-    fill(180);
-    text(hr, 10, 30);
-    fill(100);
-    text(min, 10, 60);
-    fill(0); 
-    text(sec, 10, 90);
+
 
     drawFlowers(hr);
     drawBees(min);
